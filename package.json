@@ -1,0 +1,21 @@
+{
+  "name": "react-babel-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bserve"
+  },
+  "keywords": [],
+  "author": "Tim Branyen (@tbranyen)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "@tbranyen/babel-plugin-bare-import-rewrite": "^1.3.0-1",
+    "babel-plugin-transform-commonjs": "^1.1.4",
+    "bserve": "^1.1.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
