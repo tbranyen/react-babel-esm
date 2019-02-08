@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "bserve"
+    "start": "bserve"
   },
   "keywords": [],
   "author": "Tim Branyen (@tbranyen)",
