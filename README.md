@@ -15,7 +15,7 @@ npm install
 ### Start the server
 
 ```
-npm t
+npm start
 ```
 
 ```
@@ -41,8 +41,8 @@ is used to handle the defaults required by React applications and supports JSX.
 
 The two required plugins are:
 
-- **babel-plugin-transform-commonjs** Converts CommonJS to ESM.
-- **babel-plugin-bare-import-rewrite** Forked to make compatible with the
+- [**babel-plugin-transform-commonjs**](https://github.com/tbranyen/babel-plugin-transform-commonjs) Converts CommonJS to ESM.
+- [**babel-plugin-bare-import-rewrite**](https://github.com/tbranyen/babel-plugin-bare-import-rewrite) Forked to make compatible with the
   CommonJS plugin. Converts bare specifiers to node path resolution.
 
 ```js
