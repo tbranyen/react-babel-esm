@@ -66,6 +66,8 @@ import './env.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const { main } = window;
+
 function App() {
   const [ count, setCount ] = React.useState(0);
 
@@ -75,7 +77,7 @@ function App() {
   </>;
 }
 
-ReactDOM.render(<App />, document.body);
+ReactDOM.render(<App />, main);
 ```
 
 _env.js_
@@ -83,9 +85,9 @@ _env.js_
 Allows opting into a specific environment.
 
 ```js
-window.process = {
-  env: {
-    NODE_ENV: 'production',
-  },
+const env = {
+  NODE_ENV: 'development',
 };
+
+window.process = { env };
 ```

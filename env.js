@@ -1,5 +1,5 @@
-window.process = {
-  env: {
-    NODE_ENV: 'production',
-  },
+const env = {
+  NODE_ENV: 'development',
 };
+
+window.process = { env };

@@ -2,6 +2,8 @@ import './env.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const { main } = window;
+
 function App() {
   const [ count, setCount ] = React.useState(0);
 
@@ -11,4 +13,4 @@ function App() {
   </>;
 }
 
-ReactDOM.render(<App />, document.body);
+ReactDOM.render(<App />, main);
